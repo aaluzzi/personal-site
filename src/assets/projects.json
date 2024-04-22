@@ -1,5 +1,6 @@
 [
     {
+        "id": "dictionary",
         "name": "Dictionary App",
         "technologies": ["Next.js", "PostgreSQL", "Tailwind CSS"],
         "description": "A dictionary app that supports searching, saving and categorizing words. Utilizes Discord OAuth2 to facilitate user accounts.",
@@ -7,20 +8,23 @@
         "code": "https://github.com/aaluzzi/word-pal"
     },
     {
+        "id": "pixelcanvas",
         "name": "Pixel Canvas",
-        "technologies": ["Express", "MongoDB", "WebSocket"],
-        "description": "Collaborative app where users can create and draw on a canvas. Utilizes Websockets for live pixel updates and chat messages.",
+        "technologies": ["Express", "MongoDB", "WebSockets"],
+        "description": "Collaborative app where users can create and draw on canvases in real-time. Utilizes Websockets for live pixel updates and chat messages.",
         "demo": "https://pixel-canvas.fly.dev/",
         "code": "https://github.com/aaluzzi/live-canvas"
     },
     {
+        "id": "shotclock",
         "name": "Shot Clock",
-        "technologies": ["React", "Node.js", "WebSocket"],
+        "technologies": ["React", "Node.js", "WebSockets"],
         "description": "Billiards shot clock for professional play. Uses websockets to synchronize clock display across all clients.",
         "demo": "https://shot-clock.netlify.app",
         "code": "https://github.com/aaluzzi/shot-clock"
     },
     {
+        "id": "phototagging",
         "name": "Photo Tagging App",
         "technologies": ["React", "Firebase"],
         "description": "A where's Waldo style game with an online leaderboard. Uses Firebase for storage and anonymous account control.",
@@ -28,6 +32,7 @@
         "code": "https://github.com/aaluzzi/photo-tagging-app"
     },
     {
+        "id": "agecalculator",
         "name": "Age Calculator",
         "technologies": ["React"],
         "description": "App to view someone's exact age in every moment. Uses search parameters to create savable and shareable stats.",
@@ -35,7 +40,8 @@
         "code": "https://github.com/aaluzzi/age-calculator"
     },
     {
-        "name": "Flamin Finger",
+        "id": "flaminfinger",
+        "name": "Flamin' Finger",
         "technologies": ["HTML Canvas", "JWT", "MongoDB"],
         "description": "Recreation of the 2003 arcade game. Employs a modified randomized DFS algorithm for path generation. Includes online leaderboard.",
         "demo": "https://flamin-finger.netlify.app",
