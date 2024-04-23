@@ -3,9 +3,10 @@ export default function About() {
         <section id="about-me" className="py-16 px-8 flex flex-col items-center justify-center gap-4">
             <h1 className="text-3xl font-bold">About Me</h1>
             <p className="max-w-[720px] text-lg bg-slate-800 p-4 rounded-md">
-                I'm currently a senior student studying computer science at California State Universiy, Pomona. 
-                My programming journey started in Java, but discovering the portability and accessbility of the web shifted my desire to develop in it.  
-                Besides programming, I like to lift weights, play billiards, and piano.
+                Im currently a senior studying computer science at California State University, Pomona. My programming journey began with Java, 
+                with my curriculum primarily focused on object-oriented languages and design of algorithms. 
+                However, my interest in the versatility of the web led me to explore it further.
+                Since then, I've enjoyed delving into technologies spanning from frontend to backend and constructing full-stack solutions that stand on their own.
             </p>
         </section>
     )

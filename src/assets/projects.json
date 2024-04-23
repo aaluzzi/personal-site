@@ -27,7 +27,7 @@
         "id": "phototagging",
         "name": "Photo Tagging App",
         "technologies": ["React", "Firebase"],
-        "description": "A where's Waldo style game with an online leaderboard. Uses Firebase for storage and anonymous account control.",
+        "description": "A where's Waldo style game with an online leaderboard. Utilizes Firebase for anonymous accounts as well as storage of locational data and scores.",
         "demo": "https://find-that-pokemon-da0dc.web.app/",
         "code": "https://github.com/aaluzzi/photo-tagging-app"
     },
