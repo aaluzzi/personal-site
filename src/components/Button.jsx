@@ -1,7 +1,10 @@
-export default function Button({label, link}) {
+export default function Button({icon, label, link}) {
     return (
         <button>
-            <a href={link} target="_blank">{label}</a>
+            <a className="flex gap-1 h-[100%]" href={link} target="_blank">
+                {icon}
+                {label}
+            </a>
         </button>
     )
 }

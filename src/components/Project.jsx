@@ -1,4 +1,5 @@
 import Button from "./Button";
+import { ComputerDesktopIcon, CodeBracketIcon } from '@heroicons/react/24/solid';
 
 export default function Project({ project }) {
     return (
@@ -17,8 +18,8 @@ export default function Project({ project }) {
 function ProjectButtons(demo, code) {
     return (
         <>
-            <Button label="Demo" link={demo} />
-            <Button label="Code" link={code} />
+            <Button icon={<ComputerDesktopIcon className="h-[100%]" />} label="Demo" link={demo} />
+            <Button icon={<CodeBracketIcon className="h-[100%]" />} label="Code" link={code} />
         </>
     )
 }
