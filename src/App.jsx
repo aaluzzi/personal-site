@@ -10,7 +10,7 @@ function App() {
         <Header />
         <Hero />
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 m-auto max-w-[1280px]">
         <About />
         <Portfolio />
       </div>

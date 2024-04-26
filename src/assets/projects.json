@@ -10,7 +10,7 @@
     {
         "id": "pixelcanvas",
         "name": "Pixel Canvas",
-        "technologies": ["Express", "MongoDB", "WebSockets"],
+        "technologies": ["Express", "MongoDB", "Node.js", "WebSocket"],
         "description": "Collaborative app where users can create and draw on canvases in real-time. Utilizes Websockets for live pixel updates and chat messages.",
         "demo": "https://pixel-canvas.fly.dev/",
         "code": "https://github.com/aaluzzi/live-canvas"
@@ -18,7 +18,7 @@
     {
         "id": "shotclock",
         "name": "Shot Clock",
-        "technologies": ["React", "Node.js", "WebSockets"],
+        "technologies": ["React", "Node.js", "WebSocket"],
         "description": "Billiards shot clock for professional play. Uses websockets to synchronize clock display across all clients.",
         "demo": "https://shot-clock.netlify.app",
         "code": "https://github.com/aaluzzi/shot-clock"
@@ -35,14 +35,14 @@
         "id": "agecalculator",
         "name": "Age Calculator",
         "technologies": ["React"],
-        "description": "App to view someone's exact age in every moment. Uses search parameters to create savable and shareable stats.",
+        "description": "App to view someone's exact age by years, months, or days. Uses search parameters to create savable and shareable stats.",
         "demo": "https://aaluzzi.github.io/age-calculator",
         "code": "https://github.com/aaluzzi/age-calculator"
     },
     {
         "id": "flaminfinger",
         "name": "Flamin' Finger",
-        "technologies": ["HTML Canvas", "JWT", "MongoDB"],
+        "technologies": ["HTML Canvas", "JWT", "MongoDB", "Node.js"],
         "description": "Recreation of the 2003 arcade game. Employs a modified randomized DFS algorithm for path generation. Includes online leaderboard.",
         "demo": "https://flamin-finger.netlify.app",
         "code": "https://github.com/aaluzzi/flamin-finger"
