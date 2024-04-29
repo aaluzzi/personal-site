@@ -2,6 +2,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
+import Connect from './components/Connect'
 
 function App() {
   return (
@@ -10,9 +11,10 @@ function App() {
         <Header />
         <Hero />
       </div>
-      <div className="flex flex-col gap-4 m-auto max-w-[1280px]">
+      <div className="pb-8 flex flex-col m-auto max-w-[1280px]">
         <About />
         <Portfolio />
+        <Connect />
       </div>
     </>
   )
