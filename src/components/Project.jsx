@@ -25,8 +25,8 @@ export default function Project({ project }) {
 function ProjectButtons(demo, code) {
     return (
         <>
-            <Button className="bg-green-700 hover:bg-green-800" icon={<ComputerDesktopIcon className="h-[100%]" />} label="Demo" link={demo} />
-            <Button className="bg-indigo-700 hover:bg-indigo-800" icon={<CodeBracketIcon className="h-[100%]" />} label="Code" link={code} />
+            <Button className="bg-green-700 hover:bg-green-800" icon={<ComputerDesktopIcon className="h-6 w-6" />} label="Demo" link={demo} />
+            <Button className="bg-indigo-700 hover:bg-indigo-800" icon={<CodeBracketIcon className="h-6 w-6" />} label="Code" link={code} />
         </>
     )
 }
