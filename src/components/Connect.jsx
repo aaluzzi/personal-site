@@ -7,7 +7,7 @@ export default function Connect() {
              <p>Want to talk? Reach out to me on some medium!</p>
              <div className="h-8 flex items-center gap-6">
                 <a className="h-[100%]" href={getEmailLink()}><EnvelopeIcon className="h-[100%]" /></a>
-                <a className="h-[100%]" href="https://linkedin.com/in/austinaluzzi"><img className="h-[100%]" src="./assets/icons/linkedin.png" alt="LinkedIn icon" /></a>
+                <a className="h-[100%]" href="https://linkedin.com/in/austin-aluzzi"><img className="h-[100%]" src="./assets/icons/linkedin.png" alt="LinkedIn icon" /></a>
                 <a className="h-[100%]" href="https://github.com/aaluzzi"><img className="h-[100%]" src="./assets/icons/github.png" alt="Github icon" /></a>
              </div>
         </section>
