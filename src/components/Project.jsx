@@ -4,7 +4,7 @@ import Technology from "./Technology";
 
 export default function Project({ project }) {
     return (
-        <div className="max-w-[360px] bg-slate-800 rounded-lg p-8 flex flex-col gap-4 drop-shadow-md">
+        <div className="max-w-[360px] bg-sky-900 rounded-lg p-8 flex flex-col gap-4 drop-shadow-md">
             <img src={`./assets/images/${project.id}.png`} className="aspect-video rounded-md" />
             <h1 className="text-2xl font-bold">{project.name}</h1>
             <div className="flex-grow flex flex-col gap-2 justify-around">
@@ -25,8 +25,8 @@ export default function Project({ project }) {
 function ProjectButtons(demo, code) {
     return (
         <>
-            <Button className="bg-green-700 hover:bg-green-800" icon={<ComputerDesktopIcon className="h-6 w-6" />} label="Demo" link={demo} />
-            <Button className="bg-indigo-700 hover:bg-indigo-800" icon={<CodeBracketIcon className="h-6 w-6" />} label="Code" link={code} />
+            <Button className="bg-sky-600 hover:bg-green-800" icon={<ComputerDesktopIcon className="h-6 w-6" />} label="Demo" link={demo} />
+            <Button className="bg-stone-900 hover:bg-stone-950" icon={<CodeBracketIcon className="h-6 w-6" />} label="Code" link={code} />
         </>
     )
 }

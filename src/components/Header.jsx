@@ -2,7 +2,7 @@ import { ComputerDesktopIcon, LinkIcon, UserIcon } from "@heroicons/react/24/sol
 
 export default function Header() {
     return (
-        <header className="bg-slate-700 drop-shadow-md">
+        <header className="bg-sky-950 border-sky-800 border-b-[1px]">
           <nav className="mx-auto max-w-[1280px] flex-grow flex justify-between p-4">
             <div className="text-xl font-bold">Austin Aluzzi</div>
             <ul className="flex items-center justify-center gap-6">
