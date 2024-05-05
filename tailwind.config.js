@@ -13,7 +13,7 @@ export default {
         },
         rise: {
           '0%': {
-            transform: 'transkyY(150px)',
+            transform: 'translateY(150px)',
             opacity: 0,
             },
           '50%': {
