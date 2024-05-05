@@ -32,19 +32,19 @@
         "code": "https://github.com/aaluzzi/photo-tagging-app"
     },
     {
-        "id": "agecalculator",
-        "name": "Age Calculator",
-        "technologies": ["React"],
-        "description": "App to view someone's exact age by years, months, or days. Employs search parameters to create savable and shareable stats.",
-        "demo": "https://aaluzzi.github.io/age-calculator",
-        "code": "https://github.com/aaluzzi/age-calculator"
-    },
-    {
         "id": "flaminfinger",
         "name": "Flamin' Finger",
         "technologies": ["HTML Canvas", "JWT", "MongoDB", "Node.js"],
         "description": "Recreation of the 2003 arcade game plus an online leaderboard. Employs a modified randomized DFS algorithm for path generation.",
         "demo": "https://flamin-finger.netlify.app",
         "code": "https://github.com/aaluzzi/flamin-finger"
+    },
+    {
+        "id": "agecalculator",
+        "name": "Age Calculator",
+        "technologies": ["React"],
+        "description": "App to view someone's exact age by years, months, or days. Employs search parameters to create savable and shareable stats.",
+        "demo": "https://aaluzzi.github.io/age-calculator",
+        "code": "https://github.com/aaluzzi/age-calculator"
     }
 ]
