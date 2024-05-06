@@ -1,5 +1,5 @@
 import Button from "./Button";
-import { ComputerDesktopIcon, CodeBracketIcon } from '@heroicons/react/24/solid';
+import { HiComputerDesktop, HiCodeBracket } from 'react-icons/hi2';
 import Technology from "./Technology";
 
 export default function Project({ project }) {
@@ -25,8 +25,8 @@ export default function Project({ project }) {
 function ProjectButtons(demo, code) {
     return (
         <>
-            <Button className="bg-stone-800 hover:bg-stone-900" icon={<CodeBracketIcon className="h-6 w-6" />} label="Code" link={code} />
-            <Button className="bg-green-700 hover:bg-green-800" icon={<ComputerDesktopIcon className="h-6 w-6" />} label="Demo" link={demo} />
+            <Button className="bg-stone-800 hover:bg-stone-900" icon={<HiCodeBracket className="h-6 w-6" />} label="Code" link={code} />
+            <Button className="bg-green-700 hover:bg-green-800" icon={<HiComputerDesktop className="h-6 w-6" />} label="Demo" link={demo} />
         </>
     )
 }
