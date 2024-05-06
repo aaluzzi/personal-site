@@ -1,9 +1,9 @@
 import Header from './components/Header'
-import Hero from './components/Hero'
-import About from './components/About'
-import Portfolio from './components/Portfolio'
-import Connect from './components/Connect'
-import Section from './components/Section'
+import Hero from './components/sections/Hero'
+import About from './components/sections/About'
+import Portfolio from './components/sections/Portfolio'
+import Connect from './components/sections/Connect'
+import Section from './components/sections/Section'
 
 function App() {
   return (
