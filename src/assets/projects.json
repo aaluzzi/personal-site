@@ -10,7 +10,7 @@
     {
         "id": "pixelcanvas",
         "name": "Pixel Canvas",
-        "technologies": ["Express", "MongoDB", "Node.js", "WebSocket"],
+        "technologies": ["Express", "EJS", "MongoDB", "Node.js", "WebSocket"],
         "description": "Collaborative app where users can create and draw on canvases in real-time. Uses WebSockets for live pixel updates and chat messages.",
         "demo": "https://pixel-canvas.fly.dev/",
         "code": "https://github.com/aaluzzi/live-canvas"
