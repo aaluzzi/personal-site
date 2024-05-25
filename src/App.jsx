@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import Hero from './components/sections/Hero'
 import About from './components/sections/About'
+import Skills from './components/sections/Skills'
 import Portfolio from './components/sections/Portfolio'
 import Connect from './components/sections/Connect'
 import Section from './components/sections/Section'
@@ -15,6 +16,9 @@ function App() {
       <div className="m-auto">
         <Section id="about-me" className="bg-stone-950">
           <About />
+        </Section>
+        <Section id="skills" className="bg-sky-950">
+          <Skills />
         </Section>
         <Section id="portfolio" className="bg-sky-950">
           <Portfolio />

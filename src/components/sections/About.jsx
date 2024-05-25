@@ -8,8 +8,7 @@ export default function About() {
                 <br/><br/>
                 Going through my college curriculum has educated me on many formal topics, but on the side, I discovered the versatility of web development.
                 Since then, I've brought my own ideas to life, learning several technologies spanning 
-                frontend to backend, and want to continue to pursue full stack solutions in the future.
-                Away from software developemnt, my interests include fitness, billiards, and piano.
+                frontend to backend, and will continue to pursue full stack solutions in the future.
             </p>
         </>
     )
