@@ -9,7 +9,7 @@ import Section from './components/sections/Section'
 function App() {
   return (
     <>
-      <div className="h-[100%] flex flex-col">
+      <div className="h-svh flex flex-col">
         <Header />
         <Hero />
       </div>

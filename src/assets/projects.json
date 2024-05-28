@@ -11,8 +11,8 @@
         "id": "pixelcanvas",
         "name": "Pixel Canvas",
         "technologies": ["Express", "EJS", "MongoDB", "Node.js", "WebSocket"],
-        "description": "Collaborative app where users can create and draw on canvases in real-time. Uses WebSockets for live pixel updates and chat messages.",
-        "demo": "https://pixel-canvas.fly.dev/",
+        "description": "Collaborative app where users create pixel art with others in real-time. Uses WebSockets for live canvas updates and chat messages.",
+        "demo": "https://pixel-canvas.fly.dev",
         "code": "https://github.com/aaluzzi/live-canvas"
     },
     {
@@ -27,7 +27,7 @@
         "id": "phototagging",
         "name": "Photo Tagging App",
         "technologies": ["React", "Firebase"],
-        "description": "A where's Waldo style game with an online leaderboard. Encorporates Firebase for anonymous accounts as well as storage of locational data and scores.",
+        "description": "A Where's Waldo style game with an online leaderboard. Encorporates Firebase for anonymous accounts as well as storage of locational data and scores.",
         "demo": "https://find-that-pokemon-da0dc.web.app/",
         "code": "https://github.com/aaluzzi/photo-tagging-app"
     },
