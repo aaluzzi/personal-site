@@ -13,7 +13,7 @@ export default function Skills() {
     return (
         <>
             <h1 className="text-4xl font-bold tracking-wide">Skills</h1>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap justify-center gap-8">
                 <SkillCard title="Languages">
                     <Skill name="HTML" icon={<FaHtml5 className="h-10 w-10" />} />
                     <Skill name="CSS" icon={<FaCss3Alt className="h-10 w-10" />} />
@@ -22,14 +22,14 @@ export default function Skills() {
                     <Skill name="Java" icon={<FaJava className="h-10 w-10" />} />
                     <Skill name="Python" icon={<FaPython className="h-10 w-10" />} />
                 </SkillCard>
-                <SkillCard title="Frameworks/Libraries">
+                <SkillCard title="Frameworks & Libraries">
                     <Skill name="Express" icon={<SiExpress className="h-10 w-10" />} />
                     <Skill name="Firebase" icon={<IoLogoFirebase className="h-10 w-10" />} />
                     <Skill name="Next.js" icon={<RiNextjsFill className="h-10 w-10" />} />
                     <Skill name="React" icon={<FaReact className="h-10 w-10" />} />
                     <Skill name="Tailwind" icon={<RiTailwindCssFill className="h-10 w-10" />} />
                 </SkillCard>
-                <SkillCard title="Environments/Databases">
+                <SkillCard title="Environments & Databases">
                     <Skill name="Node.js" icon={<FaNodeJs className="h-10 w-10" />} />
                     <Skill name="MongoDB" icon={<SiMongodb className="h-10 w-10" />} />
                     <Skill name="MySQL" icon={<GrMysql className="h-10 w-10" />} />

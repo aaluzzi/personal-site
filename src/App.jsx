@@ -17,7 +17,7 @@ function App() {
         <Section id="about-me" className="bg-stone-950">
           <About />
         </Section>
-        <Section id="skills" className="bg-sky-950">
+        <Section id="skills" className="bg-sky-950 -mb-16">
           <Skills />
         </Section>
         <Section id="portfolio" className="bg-sky-950">

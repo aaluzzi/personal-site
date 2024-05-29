@@ -4,7 +4,7 @@ export default function SkillCard({ title, children }) {
             <div className="flex flex-grow gap-4 flex-wrap items-center justify-center">
                 {children}
             </div>
-            <p className="text-2xl font-bold">{title}</p>
+            <p className="text-xl font-bold">{title}</p>
         </div>
     );
 }
