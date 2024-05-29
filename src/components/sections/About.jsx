@@ -1,7 +1,9 @@
+import Header from "../Header"
+
 export default function About() {
     return (
         <>
-            <h1 className="text-4xl font-bold tracking-wide">About Me</h1>
+            <Header title="About Me" />
             <p className="max-w-[720px] text-lg p-4">
                 My earliest memory of programming was trying to batch script a "Choose Your Own Adventure" game as a teen. 
                 It wasn't until a high school class that I learned what computer science was and found my passion for it. 

@@ -1,3 +1,5 @@
+import Header from '../Header';
+import SkillCard from '../SkillCard';
 import Skill from '../Skill'
 import { FaCss3Alt, FaHtml5, FaJava, FaPython, FaReact } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
@@ -7,12 +9,11 @@ import { GrMysql } from "react-icons/gr";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { RiNextjsFill } from "react-icons/ri";
 import { SiExpress, SiMongodb } from "react-icons/si";
-import SkillCard from '../SkillCard';
 
 export default function Skills() {
     return (
         <>
-            <h1 className="text-4xl font-bold tracking-wide">Skills</h1>
+            <Header title="Skills" />
             <div className="flex flex-wrap justify-center gap-8">
                 <SkillCard title="Languages">
                     <Skill name="HTML" icon={<FaHtml5 className="h-10 w-10" />} />

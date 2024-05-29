@@ -1,4 +1,4 @@
-import Header from './components/Header'
+import NavBar from './components/NavBar'
 import Hero from './components/sections/Hero'
 import About from './components/sections/About'
 import Skills from './components/sections/Skills'
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className="h-svh flex flex-col">
-        <Header />
+        <NavBar />
         <Hero />
       </div>
       <div className="m-auto">

@@ -1,10 +1,11 @@
+import Header from "../Header";
 import { HiEnvelope } from "react-icons/hi2";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Connect() {
     return (
         <>
-             <h1 className="text-3xl font-bold">Connect</h1>
+             <Header title="Connect" />
              <p>Want to talk or collaborate? Reach out to me on some medium!</p>
              <div className="my-4 flex items-center gap-6">
                 <a className="h-[100%]" href={getEmailLink()}><HiEnvelope className="h-6 w-6" /></a>
