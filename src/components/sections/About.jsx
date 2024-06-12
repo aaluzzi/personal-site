@@ -5,12 +5,16 @@ export default function About() {
         <>
             <Header title="About Me" />
             <p className="max-w-[720px] text-lg p-4">
-                My earliest memory of programming was trying to batch script a "Choose Your Own Adventure" game as a teen. 
-                It wasn't until a high school class that I learned what computer science was and found my passion for it. 
+                I'm an upcoming computer science graduate from California State Polytechnic University, Pomona 
+                eager to apply my problem-solving abilities to contribute to real world solutions. My curriculum has equipped me with
+                heavy experience in object-oriented programming, 
+                further enhanced by topics such as data structures and algorithm design. 
+                On the side, I discovered a passion for web development and dove into 
+                technologies spanning frontend to backend in order to bring my application ideas to life. 
                 <br/><br/>
-                Going through my college curriculum has educated me on many formal topics, but on the side, I discovered the versatility of web development.
-                Since then, I've brought my own ideas to life, learning several technologies spanning 
-                frontend to backend, and will continue to pursue full stack solutions in the future.
+                Through my projects I've found that whatever the requirements, 
+                I'm always open to learning new skills to ensure proficiency.
+                Let's collaborate and build something impactful!
             </p>
         </>
     )

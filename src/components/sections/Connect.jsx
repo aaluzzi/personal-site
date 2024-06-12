@@ -6,7 +6,7 @@ export default function Connect() {
     return (
         <>
              <Header title="Connect" />
-             <p>Want to talk or collaborate? Reach out to me on some medium!</p>
+             <p>Feel free to reach out to me on some medium!</p>
              <div className="my-4 flex items-center gap-6">
                 <a className="h-[100%]" href={getEmailLink()}><HiEnvelope className="h-6 w-6" /></a>
                 <a className="h-[100%]" href="https://linkedin.com/in/austin-aluzzi"><FaLinkedin className="h-6 w-6"/></a>
