@@ -3,7 +3,7 @@ import Header from "../Header"
 export default function About() {
     return (
         <>
-            <Header title="About Me" />
+            <Header title="About" />
             <p className="max-w-[720px] text-lg p-4">
                 I'm a recent Computer Science graduate from California State Polytechnic University, Pomona, eager to apply my problem-solving skills to real-world challenges.
                 My coursework has given me a strong foundation in object-oriented programming and system design.
