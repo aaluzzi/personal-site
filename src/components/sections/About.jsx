@@ -5,16 +5,12 @@ export default function About() {
         <>
             <Header title="About Me" />
             <p className="max-w-[720px] text-lg p-4">
-                I'm an upcoming computer science graduate from California State Polytechnic University, Pomona 
-                eager to apply my problem-solving abilities to contribute to real world solutions. My curriculum has equipped me with
-                heavy experience in object-oriented programming, 
-                further enhanced by topics such as data structures and algorithm design. 
-                On the side, I discovered a passion for web development and dove into 
-                technologies spanning frontend to backend in order to bring my application ideas to life. 
-                <br/><br/>
-                Through my projects I've found that whatever the requirements, 
-                I'm always open to learning new skills to ensure proficiency.
-                Let's collaborate and build something impactful!
+                I'm a recent Computer Science graduate from California State Polytechnic University, Pomona, eager to apply my problem-solving skills to real-world challenges.
+                My coursework has given me a strong foundation in object-oriented programming and system design.
+                On the side, my discovery of web development has driven me to explore both frontend and backend technologies to bring my own ideas to life.
+                <br /><br />
+                Through my projects, I’ve shown adaptability and a willingness to learn new technologies to meet various requirements.
+                I’m excited to collaborate and build impactful solutions together!
             </p>
         </>
     )
