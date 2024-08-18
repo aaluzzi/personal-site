@@ -10,7 +10,9 @@ export default function SkillCard({ title, children }) {
             y: 0,
             opacity: 1,
             transition: {
-                duration: 0.5
+                duration: 0.5,
+                delayChildren: 0.1,
+                staggerChildren: 0.1
             }
         },
     }
@@ -25,9 +27,10 @@ export default function SkillCard({ title, children }) {
                 margin: "-25px",
             }}
             className="flex flex-col gap-4 max-w-[360px] bg-sky-900 p-8 rounded-md">
-            <div className="flex flex-grow gap-4 flex-wrap items-center justify-center">
+            <ul          
+                className="flex flex-grow gap-4 flex-wrap items-center justify-center">
                 {children}
-            </div>
+            </ul>
             <p className="text-xl font-bold">{title}</p>
         </motion.div>
     );
