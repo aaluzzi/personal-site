@@ -5,8 +5,11 @@ import Skills from './components/sections/Skills'
 import Portfolio from './components/sections/Portfolio'
 import Connect from './components/sections/Connect'
 import Section from './components/sections/Section'
+import VisitorCount from './components/VisitorCount'
 
 function App() {
+
+
   return (
     <>
       <div className="h-svh flex flex-col">
@@ -26,6 +29,7 @@ function App() {
         <Section id="connect" className="bg-stone-950">
           <Connect />
         </Section>
+        <VisitorCount />
       </div>
     </>
   )
