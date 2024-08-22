@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+
 import NavBar from './components/NavBar'
 import Hero from './components/sections/Hero'
 import About from './components/sections/About'
@@ -8,8 +10,33 @@ import Section from './components/sections/Section'
 import VisitorCount from './components/VisitorCount'
 
 function App() {
+  const generateUniqueId = () => {
+    return `${Date.now()}-${Math.floor(Math.random() * 1000)}`;
+  };
 
+  const trackViewer = async (visitorId) => {
+    try {
+      await fetch('https://xxfjeq6l85.execute-api.us-west-1.amazonaws.com/insert_visitor', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ visitor_id: visitorId }),
+      });
+    } catch (error) {
+      console.error('Error tracking visitor:', error);
+    }
+  };
 
+  useEffect(() => {
+    const existingId = localStorage.getItem('visitor_id');
+    if (!existingId) {
+      const newId = generateUniqueId();
+      localStorage.setItem('visitor_id', newId);
+      trackViewer(newId);
+    }
+  }, []);
+  
   return (
     <>
       <div className="h-svh flex flex-col">
