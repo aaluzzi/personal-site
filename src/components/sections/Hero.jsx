@@ -14,6 +14,12 @@ export default function Hero() {
             transition: {
                 duration: 0.25
             }
+        },
+        hover: {
+            scale: 1.2,
+            transiiton: {
+                duration: 1.5
+            }
         }
     };
 
@@ -56,6 +62,6 @@ export default function Hero() {
 
 function HeroIcon({ href, icon }) {
     return (
-        <a className="h-[100%] bg-sky-900 p-3 rounded-full shadow-md" href={href}>{icon}</a>
+        <motion.a whileHover={{scale: 1.2}} className="h-[100%] bg-sky-900 p-3 rounded-full shadow-md" href={href}>{icon}</motion.a>
     )
 }
