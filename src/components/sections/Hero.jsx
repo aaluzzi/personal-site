@@ -1,12 +1,35 @@
 import { motion } from "framer-motion"
+import { HiEnvelope } from "react-icons/hi2";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Hero() {
+    const variants = {
+        hidden: {
+            y: 100,
+            opacity: 0
+        },
+        visible: {
+            y: 0,
+            opacity: 1,
+            transition: {
+                duration: 0.25
+            }
+        }
+    };
+
     return (
-        <section className="p-4 bg-sky-950 flex-grow flex flex-col items-center justify-center gap-8 drop-shadow-md tracking-wide">
+        <motion.section
+            initial="hidden"
+            whileInView="visible"
+            transition={{
+                staggerChildren: 0.25
+            }}
+            viewport={{
+                once: true
+            }}
+            className="p-4 bg-sky-950 flex-grow flex flex-col items-center justify-center gap-8 drop-shadow-md tracking-wide">
             <motion.h1
-                initial={{ y: 100, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0.25 }}
+                variants={variants}
                 className="text-6xl md:text-7xl font-bold leading-tight">
                 Hey, I'm Austin <motion.span
                     animate={{ rotate: [-10, 10, -10] }}
@@ -16,12 +39,23 @@ export default function Hero() {
                 </motion.span>
             </motion.h1>
             <motion.p
-                initial={{ y: 100, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0.5 }}
+                variants={variants}
                 className="text-3xl md:text-4xl leading-tight">
                 Full Stack Developer
             </motion.p>
-        </section>
+            <motion.ul
+                variants={variants}
+                className="flex gap-4">
+                <HeroIcon href="#connect" icon={<HiEnvelope className="h-6 w-6" />} />
+                <HeroIcon href="https://linkedin.com/in/austin-aluzzi" icon={<FaLinkedin className="h-6 w-6" />} />
+                <HeroIcon href="https://github.com/aaluzzi" icon={<FaGithub className="h-6 w-6" />} />
+            </motion.ul>
+        </motion.section>
+    )
+}
+
+function HeroIcon({ href, icon }) {
+    return (
+        <a className="h-[100%] bg-sky-900 p-3 rounded-full shadow-md" href={href}>{icon}</a>
     )
 }
