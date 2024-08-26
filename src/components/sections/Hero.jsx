@@ -46,7 +46,7 @@ export default function Hero() {
             <motion.ul
                 variants={variants}
                 className="flex gap-4">
-                <HeroIcon href="#connect" icon={<HiEnvelope className="h-6 w-6" />} />
+                <HeroIcon href="#contact" icon={<HiEnvelope className="h-6 w-6" />} />
                 <HeroIcon href="https://linkedin.com/in/austin-aluzzi" icon={<FaLinkedin className="h-6 w-6" />} />
                 <HeroIcon href="https://github.com/aaluzzi" icon={<FaGithub className="h-6 w-6" />} />
             </motion.ul>

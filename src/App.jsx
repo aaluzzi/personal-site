@@ -5,7 +5,7 @@ import Hero from './components/sections/Hero'
 import About from './components/sections/About'
 import Skills from './components/sections/Skills'
 import Portfolio from './components/sections/Portfolio'
-import Connect from './components/sections/Connect'
+import Contact from './components/sections/Contact'
 import Section from './components/sections/Section'
 import VisitorCount from './components/VisitorCount'
 
@@ -53,8 +53,8 @@ function App() {
         <Section id="portfolio" className="bg-sky-950">
           <Portfolio />
         </Section>
-        <Section id="connect" className="bg-stone-950">
-          <Connect />
+        <Section id="contact" className="bg-stone-950">
+          <Contact />
         </Section>
         <VisitorCount />
       </div>
