@@ -6,7 +6,7 @@ export default function VisitorCount() {
     useEffect(() => {
         const fetchViewerCount = async () => {
           try {
-            const response = await fetch('https://xxfjeq6l85.execute-api.us-west-1.amazonaws.com/visitor_count');
+            const response = await fetch('https://dl0fe78v6j.execute-api.us-west-1.amazonaws.com/visitor-count');
             
             if (!response.ok) {
               throw new Error('Network response was not ok');

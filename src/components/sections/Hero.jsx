@@ -53,15 +53,15 @@ export default function Hero() {
                 variants={variants}
                 className="flex gap-4">
                 <HeroIcon href="#contact" icon={<HiEnvelope className="h-6 w-6" />} />
-                <HeroIcon href="https://linkedin.com/in/austin-aluzzi" icon={<FaLinkedin className="h-6 w-6" />} />
-                <HeroIcon href="https://github.com/aaluzzi" icon={<FaGithub className="h-6 w-6" />} />
+                <HeroIcon href="https://linkedin.com/in/austin-aluzzi" target="_blank" icon={<FaLinkedin className="h-6 w-6" />} />
+                <HeroIcon href="https://github.com/aaluzzi" target="_blank" icon={<FaGithub className="h-6 w-6" />} />
             </motion.ul>
         </motion.section>
     )
 }
 
-function HeroIcon({ href, icon }) {
+function HeroIcon({ href, icon, target }) {
     return (
-        <motion.a whileHover={{scale: 1.2}} className="h-[100%] bg-sky-900 p-3 rounded-full shadow-md" href={href}>{icon}</motion.a>
+        <motion.a whileHover={{scale: 1.2}} className="h-[100%] bg-sky-900 p-3 rounded-full shadow-md" href={href} target={target}>{icon}</motion.a>
     )
 }

@@ -16,13 +16,14 @@ function App() {
 
   const trackViewer = async (visitorId) => {
     try {
-      await fetch('https://xxfjeq6l85.execute-api.us-west-1.amazonaws.com/insert_visitor', {
+      const resp = await fetch('https://dl0fe78v6j.execute-api.us-west-1.amazonaws.com/insert-visitor', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ visitor_id: visitorId }),
       });
+      console.log(resp)
     } catch (error) {
       console.error('Error tracking visitor:', error);
     }
