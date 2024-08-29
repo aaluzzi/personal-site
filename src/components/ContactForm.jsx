@@ -21,11 +21,16 @@ export default function ContactForm() {
         e.preventDefault();
         setStatus('Submitting...');
 
-        try {          
-            // TODO implement
-            await new Promise((resolve) => setTimeout(resolve, 1000));
-
-            setStatus('Sorry, but this form isn\'t implemented yet.');
+        try {
+            const resp = await fetch('https://dl0fe78v6j.execute-api.us-west-1.amazonaws.com/send-message', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ email: formData.email, message: formData.message.trim() }),
+            });
+            const json = await resp.json();
+            setStatus(json.message);
             setFormData({
                 email: '',
                 message: '',
@@ -38,7 +43,7 @@ export default function ContactForm() {
     return (
         <form className="w-full max-w-[512px] flex flex-col items-center gap-4 rounded-md" onSubmit={handleSubmit}>
             <input
-                className="w-full bg-stone-900 p-3 rounded-lg shadow-md"
+                className="w-full bg-stone-900 p-3 rounded-lg shadow-md focus:bg-stone-800 focus:outline-none"
                 placeholder="Your email"
                 type="email"
                 id="email"
@@ -48,7 +53,7 @@ export default function ContactForm() {
                 required
             />
             <textarea
-                className="w-full bg-stone-900 p-3 rounded-lg shadow-md"
+                className="w-full bg-stone-900 p-3 rounded-lg shadow-md focus:bg-stone-800 focus:outline-none"
                 placeholder="Your message"
                 id="message"
                 name="message"
@@ -56,7 +61,7 @@ export default function ContactForm() {
                 onChange={handleChange}
                 required
             ></textarea>
-            <Button className="bg-stone-800 hover:bg-stone-900" icon={<IoIosSend className="h-6 w-6" />} label="Submit"/>
+            <Button className="bg-stone-900 hover:bg-stone-800" icon={<IoIosSend className="h-6 w-6" />} label="Submit" />
             {status && <p>{status}</p>}
         </form>
     );
