@@ -23,6 +23,6 @@ export default function VisitorCount() {
       }, []);
 
     return (
-        <div className="py-4 text-sm text-stone-500">{viewerCount} Unique Visitors</div>
+        <div className="italic pt-2">{viewerCount} Unique Visitors</div>
     );
 }

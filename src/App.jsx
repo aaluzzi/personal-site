@@ -8,6 +8,7 @@ import Portfolio from './components/sections/Portfolio'
 import Contact from './components/sections/Contact'
 import Section from './components/sections/Section'
 import VisitorCount from './components/VisitorCount'
+import Footer from './components/sections/Footer'
 
 function App() {
   const generateUniqueId = () => {
@@ -57,7 +58,7 @@ function App() {
         <Section id="contact" className="bg-stone-950">
           <Contact />
         </Section>
-        <VisitorCount />
+        <Footer />
       </div>
     </>
   )

@@ -51,6 +51,9 @@ export default function Hero() {
             </motion.p>
             <motion.ul
                 variants={variants}
+                transition={{
+                    staggerChildren: 0.25
+                }}
                 className="flex gap-4">
                 <HeroIcon href="#contact" icon={<HiEnvelope className="h-6 w-6" />} />
                 <HeroIcon href="https://linkedin.com/in/austin-aluzzi" target="_blank" icon={<FaLinkedin className="h-6 w-6" />} />
