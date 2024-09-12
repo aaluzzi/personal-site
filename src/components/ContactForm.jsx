@@ -65,7 +65,7 @@ export default function ContactForm() {
                 required
             />
             <textarea
-                className="w-full bg-stone-900 p-3 rounded-lg shadow-md focus:bg-stone-800 focus:outline-none"
+                className="w-full min-h-24 bg-stone-900 p-3 rounded-lg shadow-md focus:bg-stone-800 focus:outline-none"
                 placeholder="Your message"
                 id="message"
                 name="message"
