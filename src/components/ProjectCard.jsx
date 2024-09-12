@@ -27,7 +27,7 @@ export default function ProjectCard({ project, index }) {
                 margin: "-25px",
             }}
             className="max-w-[360px] bg-sky-900 rounded-lg p-8 flex flex-col gap-4 drop-shadow-md">
-            <a href={project.demo}><img src={`./assets/images/${project.id}.png`} className="aspect-video rounded-md" /></a>
+            <a href={project.demo}><img src={`./assets/images/${project.id}.png`} className="aspect-video rounded-lg" /></a>
             <h2 className="text-2xl font-bold">{project.name}</h2>
             <div className="flex-grow flex flex-col gap-2 justify-around">
                 <p className="flex items-center">{project.description}</p>
