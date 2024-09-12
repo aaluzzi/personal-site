@@ -7,7 +7,6 @@ import Skills from './components/sections/Skills'
 import Portfolio from './components/sections/Portfolio'
 import Contact from './components/sections/Contact'
 import Section from './components/sections/Section'
-import VisitorCount from './components/VisitorCount'
 import Footer from './components/sections/Footer'
 
 function App() {
