@@ -68,7 +68,7 @@
         "name": "Musical Temperaments",
         "technologies": ["Web Audio API"],
         "description": "Keyboard that can be tuned to different temperaments in any key. Playable by mouse, keyboard, touch, and MIDI controllers.",
-        "demo": "https://aaluzzi.github.io/temperaments/",
+        "demo": "https://temperaments.netlify.app/",
         "code": "https://github.com/aaluzzi/temperaments"
     }
 ]
