@@ -19,7 +19,7 @@ export default function Skill({icon, name, key}) {
         <motion.li
             variants={animationVariants}           
             key={key}
-            className="p-2 w-[25%] flex flex-col items-center justify-between gap-1 rounded-md border-sky-900 border-2">           
+            className="p-2 w-[30%] flex flex-col items-center justify-between gap-1 rounded-md border-sky-900 border-2">           
             {icon}
             {name}
         </motion.li>
