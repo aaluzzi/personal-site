@@ -1,7 +1,7 @@
 [
     {
-        "id": "pixelcanvas",
-        "name": "Pixel Canvas",
+        "id": "canvascrew",
+        "name": "Canvas Crew",
         "technologies": ["Express", "EJS", "MongoDB", "Mongoose", "Node.js", "WebSocket"],
         "description": "Collaborative app where users create pixel art with others in real-time. Uses WebSockets for live canvas updates and chat messages.",
         "demo": "https://pixel-canvas.fly.dev",
@@ -11,7 +11,7 @@
         "id": "dictionary",
         "name": "Word Pal",
         "technologies": ["Next.js", "PostgreSQL", "Tailwind"],
-        "description": "Vocabulary building app that supports saving words and categorizing them. Utilizes Discord/Google OAuth2 to facilitate user accounts.",
+        "description": "Vocabulary building app that supports collecting words and categorizing them. Utilizes Discord/Google OAuth2 to facilitate user accounts.",
         "demo": "https://wordpal.vercel.app",
         "code": "https://github.com/aaluzzi/word-pal"
     },
@@ -32,8 +32,8 @@
         "code": "https://github.com/aaluzzi/shot-clock"
     },
     {
-        "id": "phototagging",
-        "name": "Photo Tagging App",
+        "id": "findthatpokemon",
+        "name": "Find That Pokemon",
         "technologies": ["React", "Firebase"],
         "description": "A Where's Waldo style game with an online leaderboard. Encorporates Firebase for anonymous accounts as well as storage of locational data and scores.",
         "demo": "https://find-that-pokemon-da0dc.web.app/",
