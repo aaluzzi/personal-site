@@ -4,8 +4,8 @@
         "name": "Canvas Crew",
         "technologies": ["Express", "EJS", "MongoDB", "Mongoose", "Node.js", "WebSocket"],
         "description": "Collaborative app where users create pixel art with others in real-time. Uses WebSockets for live canvas updates and chat messages.",
-        "demo": "https://pixel-canvas.fly.dev",
-        "code": "https://github.com/aaluzzi/live-canvas"
+        "demo": "https://canvas-crew.fly.dev",
+        "code": "https://github.com/aaluzzi/canvas-crew"
     },
     {
         "id": "dictionary",
