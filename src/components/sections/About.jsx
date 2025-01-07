@@ -5,12 +5,9 @@ export default function About() {
         <>
             <Header title="About Me" />
             <p className="max-w-[720px] text-lg p-4">
-                I'm a recently graduated software developer that loves to apply my problem-solving skills to real-world challenges.
-                My background includes a solid foundation in object-oriented programming and system design. 
-                <br /><br />
-                In my spare time, I’ve delved into web development, exploring both frontend and backend technologies to bring my own ideas to life. Building personal projects has taught me adaptability and a need to learn new technologies to meet requirements.
-                <br /><br />
-                I enjoy working with others and am always excited about the possibility of creating something impactful together. Let's connect!
+            Hi there! I'm a software developer passionate about using my problem-solving skills to tackle real-world challenges. My foundation is built on object-oriented programming principles and maintaining legacy code systems. On the side, I've expanded my expertise into modern full-stack development—from building responsive frontends with frameworks like React to creating large-scale backends powered by relational and non-relational databases. Through web development, I've been able to turn my ideas into tangible projects, continuously growing my skill set.
+            <br /><br />
+            Outside of programming, I enjoy weightlifting, playing billiards, and <a href="https://www.youtube.com/@AustinArpeggio"><u><b>learning the piano</b></u></a>. I also appreciate socializing with other human beings and am always excited to collaborate on something impactful. <b>Let's connect!</b>
             </p>
         </>
     )
