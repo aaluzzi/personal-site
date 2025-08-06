@@ -5,9 +5,11 @@ export default function About() {
         <>
             <Header title="About Me" />
             <p className="max-w-[720px] text-lg p-4">
-            Hi there! I'm a software developer passionate about using my problem-solving skills to tackle real-world challenges. My foundation is built on object-oriented programming principles and maintaining legacy code systems. On the side, I've expanded my expertise into modern full-stack development—from building responsive frontends with frameworks like React to creating large-scale backends powered by relational and non-relational databases. Through web development, I've been able to turn my ideas into tangible projects, continuously growing my skill set.
+            <b className="font-bold">Hey there!</b> I'm a Software Engineer at AAA, where I currently maintain legacy roadside assistance applications while transitioning them to cloud-based solutions.
             <br /><br />
-            Outside of programming, I enjoy weightlifting, playing billiards, and <a href="https://www.youtube.com/@AustinArpeggio"><u><b>learning the piano</b></u></a>. I also appreciate socializing with other human beings and am always excited to collaborate on something impactful. <b>Let's connect!</b>
+            One of my earliest programming memories is failing to beat the CPU I created for a Java rock-paper-scissors game. I've come a long way since then, eventually finding my way into full-stack web development. The web has provided me an accessible platform to present my fun ideas, all while learning many new technologies along the way. I'm excited to see how it continues to evolve.
+            <br /><br />
+            In my free time, I enjoy playing billiards and <a href="https://www.youtube.com/@AustinatoPiano">learning how to use <u><b className="font-semibold">a different kind of keyboard</b></u></a>. I also like socializing with other humans and am always ready to collaborate on something impactful. <b className="font-bold">Let's connect!</b>
             </p>
         </>
     )

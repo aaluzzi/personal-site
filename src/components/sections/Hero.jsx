@@ -46,8 +46,8 @@ export default function Hero() {
             </motion.h1>
             <motion.p
                 variants={variants}
-                className="text-3xl md:text-4xl leading-tight">
-                Full Stack Developer
+                className="text-3xl md:text-4xl tracking-wide leading-tight">
+                Software Engineer
             </motion.p>
             <motion.ul
                 variants={variants}
