@@ -24,7 +24,6 @@ export default function ProjectCard({ project, index }) {
             whileInView="visible"
             viewport={{
                 once: true,
-                margin: "-25px",
             }}
             className="max-w-[360px] bg-sky-900 rounded-lg p-8 flex flex-col gap-4 drop-shadow-md">
             <a href={project.demo}><img src={`./assets/images/${project.id}.png`} className="aspect-video rounded-lg" /></a>
