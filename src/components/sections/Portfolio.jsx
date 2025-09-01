@@ -5,7 +5,7 @@ import ProjectCard from '../ProjectCard';
 export default function Portfolio() {
     return (
         <>
-            <Header title="Portfolio" />
+            <Header title="What I've Made" />
             <p className="text-lg">Here's some web applications that I built during college:</p>
             <div className="flex flex-wrap justify-center gap-8">
                 {projects.map(project => <ProjectCard project={project} key={project.id} />)}

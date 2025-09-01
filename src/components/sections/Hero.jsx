@@ -1,6 +1,8 @@
 import { motion } from "framer-motion"
 import { HiEnvelope } from "react-icons/hi2";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { CgChevronDoubleDown } from "react-icons/cg";
+import { BsArrowDown } from "react-icons/bs";
 
 export default function Hero() {
     const variants = {
@@ -39,7 +41,7 @@ export default function Hero() {
                 className="text-6xl md:text-7xl font-bold leading-tight">
                 Hey, I'm Austin <motion.span
                     animate={{ rotate: [-10, 10, -10] }}
-                    transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+                    transition={{ duration: 0.8, ease: 'easeInOut', repeat: 1 }}
                     className="inline-block origin-bottom-right">
                     👋
                 </motion.span>
