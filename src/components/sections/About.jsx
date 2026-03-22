@@ -7,7 +7,7 @@ export default function About() {
             <p className="max-w-[720px] text-lg p-4">        
             Hey visitor! I'm Austin, a lifelong problem solver who likes to express that through code. I've turned fun ideas into tangible projects with different technologies over time, but nowadays prefer using the accessibility and scale of the web. Currently I'm at AAA, transitioning legacy roadside assistance systems into modern, cloud-based solutions.
             <br /><br />
-            In my free time, I enjoy playing billiards and learning how to use <a href="https://www.youtube.com/@AustinatoPiano" target="_blank"><u><b className="font-semibold">a different kind of keyboard</b></u></a>. I also like socializing with other humans and am always ready to collaborate on a meaningful project. Let's connect!
+            In my free time, I enjoy playing billiards and learning how to use <a href="https://www.youtube.com/@AustinatoPiano" target="_blank"><u><b className="font-semibold">a different kind of keyboard</b></u></a>. I also like socializing with other humans and am always ready to collaborate on something meaningful. Let's connect!
             </p>
         </>
     )

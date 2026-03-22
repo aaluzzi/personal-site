@@ -38,13 +38,16 @@ export function Piano() {
     const [melodyIndex, setMelodyIndex] = useState(0);
 
     const sampler = useRef(new Tone.Sampler({
-        urls: {
-            "C4": "C4.mp3",           
+        urls: {    
+            "C4": "C4.mp3",       
+            "D#4": "DSharp4.mp3",
+            "F#4": "FSharp4.mp3", 
+            "A4": "A4.mp3",
             "C5": "C5.mp3",
         },
         volume: -6,
         release: 4,
-        baseUrl: "https://tonejs.github.io/audio/salamander/", 
+        baseUrl: "/assets/sounds/", 
     }).toDestination());
     
     const highlightNext = () => {
