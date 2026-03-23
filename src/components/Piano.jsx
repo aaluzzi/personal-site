@@ -50,12 +50,15 @@ export function Piano() {
         baseUrl: "/assets/sounds/", 
     }).toDestination());
     
-    const highlightNext = () => {
-        setMelodyIndex(prevIndex => prevIndex + 1)
-        if (melodyIndex == song.melody.length - 1) {
+    const highlightNext = () => {   
+        if (melodyIndex == song.tutorial_length - 1) {
+            setAutoPlaying(true);
+            setMelodyIndex(-1);
             setTimeout(() => {
                 playMelody();
             }, 1000);
+        } else {
+            setMelodyIndex(prevIndex => prevIndex + 1);
         }
     }
 
@@ -74,8 +77,7 @@ export function Piano() {
             return event;
         });
 
-        setAutoPlaying(true);
-        setMelodyIndex(-1);
+        
         const part = new Tone.Part((time, value) => {
             sampler.current.triggerAttackRelease(value.note, value.duration, time);
             Tone.getDraw().schedule(() => {
@@ -94,7 +96,7 @@ export function Piano() {
         Tone.getTransport().bpm.value = song.bpm
         Tone.getTransport().start();     
     }
-    console.log(song);
+
     return (
         <motion.div onTouchStartCapture={async e => await Tone.start()}
             className="select-none touch-none flex w-full max-w-[480px] aspect-7/3 rounded-lg m-0 md:m-8 drop-shadow-md cursor-grab gap-0.5">      
@@ -118,7 +120,7 @@ export function Piano() {
                         isHighlighted={song.melody[melodyIndex]?.note === keys[index + 1].note}
                         note={keys[index + 1].note}
                         highlightNext={highlightNext}
-                        className="absolute h-[60%] w-[64%] right-[-35%] top-0 z-10 rounded-b-sm"   
+                        className="absolute h-[60%] w-[65%] right-[-35%] top-0 z-10 rounded-b-sm"   
                         sampler={sampler.current}                          
                     />                   
                 </div>

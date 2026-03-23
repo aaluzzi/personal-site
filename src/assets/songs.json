@@ -2,6 +2,7 @@
     {
         "title": "Wet Hands",
         "bpm": 74,
+        "tutorial_length": 14,
         "melody": [
             { "note": "A3", "duration": "8n" },
             { "note": "C#4", "duration": "8n" },
@@ -22,7 +23,24 @@
     {
         "title": "Sad Machine",
         "bpm": 89,
+        "tutorial_length": 11,
         "melody": [
+            { "note": "D#4", "duration": "8n." },
+            { "note": "D#4", "duration": "8n." },
+            { "note": "D#4", "duration": "4n" },
+            { "note": "A#4", "duration": "16n" },
+            { "note": "G4", "duration": "16n" },
+            { "note": "A#4", "duration": "8n" },
+            { "note": "G4", "duration": "16n" },
+            { "note": "F4", "duration": "16n" },
+            { "note": "D#4", "duration": "8n." },
+            { "note": "D#4", "duration": "8n." },
+            { "note": "D#4", "duration": "4n" },        
+            { "note": "A#4", "duration": "16n" },
+            { "note": "G4", "duration": "16n" },      
+            { "note": "A#4", "duration": "8n" },
+            { "note": "G4", "duration": "16n" },
+            { "note": "F4", "duration": "16n" },
             { "note": "D#4", "duration": "8n." },
             { "note": "D#4", "duration": "8n." },
             { "note": "D#4", "duration": "4n" },
@@ -33,12 +51,21 @@
             { "note": "F4", "duration": "16n" },
             { "note": "D#4", "duration": "8n." },
             { "note": "D#4", "duration": "8n." },
+            { "note": "D#4", "duration": "4n" },
+            { "note": "A#4", "duration": "16n" },
+            { "note": "C5", "duration": "16n" },      
+            { "note": "G4", "duration": "8n" },
+            { "note": "G4", "duration": "16n" },
+            { "note": "F4", "duration": "16n" },
+            { "note": "D#4", "duration": "8n." },
+            { "note": "D#4", "duration": "8n." },
             { "note": "D#4", "duration": "4n" }
         ]
     },
     {
         "title": "File Select",
         "bpm": 180,
+        "tutorial_length": 10,
         "melody": [
             { "note": "G4", "duration": "8n" },
             { "note": "D5", "duration": "8n" },
@@ -49,12 +76,19 @@
             { "note": "D5", "duration": "8n" },
             { "note": "B4", "duration": "8n" },
             { "note": "C5", "duration": "8n" },
-            { "note": "D5", "duration": "4n" }
+            { "note": "D5", "duration": "4n" },
+            { "note": "G4", "duration": "8n" },
+            { "note": "D5", "duration": "8n" },
+            { "note": "D5", "duration": "8n" },
+            { "note": "A4", "duration": "4n" },
+            { "note": "D5", "duration": "8n" },
+            { "note": "B4", "duration": "2n+8n" }
         ]
     },
     {
         "title": "Better Off Alone",
         "bpm": 130,
+        "tutorial_length": 10,
         "melody": [
             { "note": "B3", "duration": "4n" },
             { "note": "B3", "duration": "8n" },
@@ -76,6 +110,53 @@
             { "note": "E4", "duration": "8n+16n" },
             { "note": "E4", "duration": "8n+16n" },
             { "note": "D#4", "duration": "8n" }
+        ]
+    },
+    {
+        "title": "Lost Woods",
+        "bpm": 140,
+        "tutorial_length": 11,
+        "melody": [
+            { "note": "F4", "duration": "8n" },
+            { "note": "A4", "duration": "8n" },
+            { "note": "B4", "duration": "4n" },
+            { "note": "F4", "duration": "8n" },
+            { "note": "A4", "duration": "8n" },
+            { "note": "B4", "duration": "4n" },
+            { "note": "F4", "duration": "8n" },
+            { "note": "A4", "duration": "8n" },
+            { "note": "B4", "duration": "8n" },
+            { "note": "E5", "duration": "8n" },
+            { "note": "D5", "duration": "4n" },
+            { "note": "B4", "duration": "8n" },
+            { "note": "C5", "duration": "8n" },
+            { "note": "B4", "duration": "8n" },
+            { "note": "G4", "duration": "8n" },
+            { "note": "E4", "duration": "2n+8n" },
+            { "note": "D4", "duration": "8n" },
+            { "note": "E4", "duration": "8n" },
+            { "note": "G4", "duration": "8n" },
+            { "note": "E4", "duration": "4n+2n" },
+            { "note": "F4", "duration": "8n" },
+            { "note": "A4", "duration": "8n" },
+            { "note": "B4", "duration": "4n" },
+            { "note": "F4", "duration": "8n" },
+            { "note": "A4", "duration": "8n" },
+            { "note": "B4", "duration": "4n" },
+            { "note": "F4", "duration": "8n" },
+            { "note": "A4", "duration": "8n" },
+            { "note": "B4", "duration": "8n" },
+            { "note": "E5", "duration": "8n" },
+            { "note": "D5", "duration": "4n" },
+            { "note": "B4", "duration": "8n" },
+            { "note": "C5", "duration": "8n" },
+            { "note": "E5", "duration": "8n" },
+            { "note": "B4", "duration": "8n" },
+            { "note": "G4", "duration": "2n+8n" },
+            { "note": "B4", "duration": "8n" },
+            { "note": "G4", "duration": "8n" },
+            { "note": "D4", "duration": "8n" },
+            { "note": "E4", "duration": "2n" }
         ]
     }
 ]
